@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 *{
     padding:0;
     margin:0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .sideBar{
@@ -313,7 +317,7 @@
 
 .show-words span{
     color:white;
-    font-size: 20px;
+    font-size: 19px;
     margin: 10%;
 }
 .show-words span2{
@@ -423,7 +427,28 @@
     margin-left: 12%;
 }
 
+.bottom-green-pro{
+    background-color: #1ED760;
+    height: 30px;
+}
 .bottom-green{
     background-color: #1ED760;
     height: 30px;
+    margin-left: 80%;
+}
+
+
+.bottom-green span{
+    margin-bottom: 40%;
+}
+
+.bottom-green img{
+    margin-top: 1%;
+}
+
+#up-arrow{
+    height: 10px;
+    position: relative;
+    bottom: 70%;
+    left: 25%;
 }
